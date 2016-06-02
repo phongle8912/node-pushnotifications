@@ -85,6 +85,7 @@ Next, create a JSON object witch MUST contain, at least, a title and message and
 var data = {
   title: 'New push notification',
   message: 'Powered by AppFeel',
+  titleIos:'Title for Ios only',
   otherfields: 'optionally add more data'
 };
 push.send(deviceIds, data, function (result) {
