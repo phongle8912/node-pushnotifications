@@ -45,6 +45,7 @@ var settings = {
       expiry: 4 * 7 * 24 * 3600, // 4 weeks
       sound: 'ping.aiff'
     },
+    contentAvailable: true,
     // See all available options at https://github.com/argon/node-apn/blob/master/doc/connection.markdown
     options: {},
     // I.e., change .cert location file:
