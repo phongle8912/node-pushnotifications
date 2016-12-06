@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "apn": "1.7.8",
-    "node-gcm": "*",
+    "node-gcm": "~0.9.15",
     "mpns": "*",
     "node-parallel": "*",
     "node-adm": "*",
